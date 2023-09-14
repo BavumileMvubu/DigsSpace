@@ -50,7 +50,7 @@ if (isset($_POST['search'])) {
 
     <main class="admin-main">
         <h1 class="admin-heading">Admin Dashboard</h1>
-        <p>Welcome to the Admin Panel.</p>
+        <p>Welcome to the Admin.</p>
         <div class="latest-updates">
             <h2>Latest Updates</h2>
             <div class="update">
