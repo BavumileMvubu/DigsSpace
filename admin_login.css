@@ -1,0 +1,84 @@
+/* CSS styling for the admin panel */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto; 
+    margin-top: 100px; 
+    padding: 20px;
+}
+
+.login-header {
+    background-color: #C7C7C7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.login-header h2 {
+    color: #FFFFFF;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 94%;
+    padding: 8px;
+    border: 1px solid #C7C7C7;
+    border-radius: 10px;
+}
+
+.form-group .login-btn {
+    padding: 6px 10px;
+    background-color: #52AB98;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-group .login-btn:hover {
+    background-color: #3B877D;
+}

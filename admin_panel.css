@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.admin-header {
+    background-color: #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 300px; /* Adjust the logo size as needed */
+    margin-bottom: -10px; /* Adjust the desired margin */
+    margin-left: -25px;
+}
+
+/* Search bar styles */
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #000000; /* Adjust the border color 👁️ */
+    border-radius: 20px; /* To adjust the roundness of the edges 😜 */
+    width: 300px; /* Adjust the width as needed */
+}
+
+.search-button {
+    padding: 6px 10px;
+    background-color: #52AB98;
+    color: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Filter button styles */
+.filter-button button {
+    padding: 6px 10px;
+    background-color: #52AB98;
+    color: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Navigation List */
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items horizontally */
+}
+
+.admin-nav li {
+    margin-right: 15px; /* Add spacing between list items */
+}
+
+.admin-nav a {
+    text-decoration: none;
+    color: #000000; /* Adjust link color */
+}
+
+.admin-nav a:hover {
+    text-decoration: underline;
+}
+
+.admin-heading {
+margin-left: 10px;
+}
+
+.admin-main p{
+    margin-left: 10px;
+}
+
+/* Latest Updates styles */
+.latest-updates {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.update {
+    margin-bottom: 20px;
+}
+
+.update h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.property-listings {
+    display: flex;
+    justify-content:space-between;
+}
+
+.property-listing {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property-listing img {
+    width: 420px;
+    height: 300px;
+    object-fit: cover;  
+}
+
+.listing-info h4 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.listing-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.agent-notifications {
+    margin-top: 10px;
+
+}
+
+.agent-notifications p {
+    font-size: 14px;
+
+}
+
+.agent-notifications ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.agent-notifications li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #000000;
+}
+
+/* Admin Content styles */
+.admin-content {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* Property List styles */
+.property-container {
+    display: flex;
+    justify-content: space-between; /* control spacing */
+}
+
+.property {
+    width: 30%; /* controls the width of each property box */
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.property img {
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.property-info h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.property-info p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.rented {
+    color: #FF0000; 
+    font-weight: bold;
+}
+
+.available {
+    color: #52AB98; 
+    font-weight: bold;
+}
+
+.property button{
+    padding: 5px 10px;
+    background-color: #52AB98;
+    color: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.property-listing button{
+    padding: 5px 10px;
+    background-color: #52AB98;
+    color: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Bold Text Styles */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Headings styles */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Links styles */
+a {
+    color: #C7C7C7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
