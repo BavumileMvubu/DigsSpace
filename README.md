@@ -1,2 +1,2 @@
 # DigsSpace
-For IS 3 Sys Dev project
+For IS 3 System Dev project
